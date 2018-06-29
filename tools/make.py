@@ -58,7 +58,7 @@ if sys.platform == "win32":
 
 ######## GLOBALS #########
 project = "@spag"
-project_version = "3.0.0"
+project_version = "1.0.1"
 arma3tools_path = ""
 work_drive = ""
 module_root = ""
@@ -72,8 +72,8 @@ dssignfile = ""
 prefix = "spag"
 pbo_name_prefix = "spag_"
 signature_blacklist = []
-importantFiles = ["mod.cpp", "README.md", "docs\\README_DE.md", "docs\\README_PL.md", "AUTHORS.txt", "LICENSE", "logo_spag_ca.paa", "meta.cpp"]
-versionFiles = ["README.md", "docs\\README_DE.md", "docs\\README_PL.md", "mod.cpp"]
+importantFiles = ["mod.cpp", "AUTHORS.txt", "spagistan_logo_ca.paa", "meta.cpp"]
+versionFiles = ["mod.cpp"]
 
 ciBuild = False # Used for CI builds
 
@@ -253,7 +253,7 @@ def find_depbo_tools():
             print_error("Could not find {}".format(tool))
             failed = True
         else:
-            #Strip any quotations from the path due to a MikeRo tool bug which leaves a trailing space in some of its registry paths.
+            #Strip any quotations from the path due to a MikeRo tool bug which leaves a trailing spspag in some of its registry paths.
             requiredToolPaths[tool] = path.strip('"')
             print_green("Found {}.".format(tool))
         finally:
@@ -520,7 +520,7 @@ def addon_restore(modulePath):
 def get_project_version(version_increments=[]):
     global project_version
     versionStamp = project_version
-    #do the magic based on https://github.com/spagmod/Spagistan/issues/806#issuecomment-95639048
+    #do the magic based on https://github.com/spagmod/spag3/issues/806#issuecomment-95639048
 
     try:
         scriptModPath = os.path.join(module_root, "main\script_version.hpp")
@@ -581,10 +581,10 @@ def get_project_version(version_increments=[]):
     return project_version
 
 
-def replace_file(filePath, oldSubstring, newSubstring):
-    for line in fileinput.input(filePath, inplace=True):
+def replspag_file(filePath, oldSubstring, newSubstring):
+    for line in fileinput.input(filePath, inplspag=True):
         # Use stdout directly, print() adds newlines automatically
-        sys.stdout.write(line.replace(oldSubstring,newSubstring))
+        sys.stdout.write(line.replspag(oldSubstring,newSubstring))
 
 
 def set_version_in_files():
@@ -614,7 +614,7 @@ def set_version_in_files():
                     # Filter out sub-versions of other versions
                     versionsFound = [j for i, j in enumerate(versionsFound) if all(j not in k for k in versionsFound[i + 1:])]
 
-                    # Replace version stamp if any of the new version parts is higher than the one found
+                    # Replspag version stamp if any of the new version parts is higher than the one found
                     for versionFound in versionsFound:
                         if versionFound:
                             # Use the same version length as the one found
@@ -627,7 +627,7 @@ def set_version_in_files():
                             # Print change and modify the file if changed
                             if newVersionUsed and versionFound != newVersionUsed:
                                 print_green("Changing version {} => {} in {}".format(versionFound, newVersionUsed, filePath))
-                                replace_file(filePath, versionFound, newVersionUsed)
+                                replspag_file(filePath, versionFound, newVersionUsed)
         except WindowsError as e:
             # Temporary file is still "in use" by Python, pass this exception
             pass
@@ -832,7 +832,6 @@ def main(argv):
         print ("""
 make.py [help] [test] [force] [key <name>] [target <name>] [release <version>]
         [module name] [module name] [...]
-
 test -- Copy result to Arma 3.
 release <version> -- Make archive with <version>.
 force -- Ignore cache and build all.
@@ -842,9 +841,7 @@ target <name> -- Use rules in make.cfg under heading [<name>] rather than
 key <name> -- Use key in working directory with <name> to sign. If it does not
    exist, create key.
 quiet -- Suppress command line output from build tool.
-
 If module names are specified, only those modules will be built.
-
 Examples:
    make.py force test
       Build all modules (ignoring cache) and copy the mod folder to the Arma 3
@@ -854,10 +851,7 @@ Examples:
    make.py force key MyNewKey release 1.0
       Build all modules (ignoring cache), sign them with NewKey, and pack them
       into a zip file for release with version 1.0.
-
-
 If a file called $NOBIN$ is found in the module directory, that module will not be binarized.
-
 See the make.cfg file for additional build options.
 """)
         sys.exit(0)

@@ -2,11 +2,11 @@
 
 class CfgPatches {
     class ADDON {
-        name = COMPONENT_NAME;
+        name = COMPONENT;
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {};
+        requiredAddons[] = {"spag_main"};
         author = authorCOMMON;
         authors[] = {"Taepodong", "Kalthramis"};
         url = SPAGLINK;
@@ -16,3 +16,5 @@ class CfgPatches {
 
 #include "CfgMarkers.hpp"
 #include "CfgFactionClasses.hpp"
+#include "CfgEditorSubcategories.hpp"
+#include "CfgSettings.hpp"

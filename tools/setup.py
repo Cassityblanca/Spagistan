@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #######################
-#  spag Setup Script  #
+#  Spag Setup Script  #
 #######################
 
 import os
@@ -11,32 +11,29 @@ import platform
 import subprocess
 import winreg
 
-######## GLOBALS #########
-MAINDIR = "s"
+######## GLOBALS #########a
+MAINDIR = "z"
 PROJECTDIR = "spag"
-CBA = "P:\\x\\cba"
 ##########################
 
 def main():
     FULLDIR = "{}\\{}".format(MAINDIR,PROJECTDIR)
     print("""
   ######################################
-  # spag Development Environment Setup #
+  # Spag Development Environment Setup #
   ######################################
 
-  This script will create your spag dev environment for you.
+  This script will create your Spag dev environment for you.
 
   Before you run this, you should already have:
-    - The Arma 3 Tools installed properly via Steam
-    - A properly set up P-drive
+    - A properly setup ACE3 Development Environment
 
   If you have not done those things yet, please abort this script in the next step and do so first.
 
-  This script will create two hard links on your system, both pointing to your spag project folder:
-    [Arma 3 installation directory]\\{} => spag project folder
-    P:\\{}                              => spag project folder
-
-  It will also copy the required CBA includes to {}, if you do not have the CBA source code already.""".format(FULLDIR,FULLDIR,CBA))
+  This script will create two hard links on your system, both pointing to your Spag project folder:
+    [Arma 3 installation directory]\\{} => Spag project folder
+    P:\\{}                              => Spag project folder
+    """.format(FULLDIR,FULLDIR))
     print("\n")
 
     try:
@@ -48,8 +45,8 @@ def main():
         print("Failed to determine Arma 3 Path.")
         return 1
 
-    if not os.path.exists("P:\\"):
-        print("No P-drive detected.")
+    if not os.path.exists("P:\\z\\spag"):
+        print("No SPAG Development Environment detected.")
         return 2
 
     scriptpath = os.path.realpath(__file__)
@@ -79,30 +76,18 @@ def main():
         if not os.path.exists(os.path.join(armapath, MAINDIR)):
             os.mkdir(os.path.join(armapath, MAINDIR))
 
-        subprocess.call(["cmd", "/c", "mklink", "/J", "P:\\{}\\{}".format(MAINDIR,PROJECTDIR), projectpath])
-        subprocess.call(["cmd", "/c", "mklink", "/J", os.path.join(armapath, MAINDIR, PROJECTDIR), projectpath])
+        if platform.win32_ver()[0] == "7":
+            subprocess.call(["cmd", "/c", "mklink", "/D", "P:\\{}\\{}".format(MAINDIR,PROJECTDIR), projectpath])
+            subprocess.call(["cmd", "/c", "mklink", "/D", os.path.join(armapath, MAINDIR, PROJECTDIR), projectpath])
+        else:
+            subprocess.call(["cmd", "/c", "mklink", "/D", "/J", "P:\\{}\\{}".format(MAINDIR,PROJECTDIR), projectpath])
+            subprocess.call(["cmd", "/c", "mklink", "/D", "/J", os.path.join(armapath, MAINDIR, PROJECTDIR), projectpath])
     except:
         raise
         print("Something went wrong during the link creation. Please finish the setup manually.")
         return 6
 
     print("# Links created successfully.")
-
-
-    print("\n# Copying required CBA includes ...")
-
-    if os.path.exists(CBA):
-        print("{} already exists, skipping.".format(CBA))
-        return -1
-
-    try:
-        shutil.copytree(os.path.join(projectpath, "tools", "cba"), CBA)
-    except:
-        raise
-        print("Something went wrong while copying CBA includes. Please copy tools\\cba to {} manually.".format(CBA))
-        return 7
-
-    print("# CBA includes copied successfully to {}.".format(CBA))
 
     return 0
 
@@ -111,7 +96,7 @@ if __name__ == "__main__":
     exitcode = main()
 
     if exitcode > 0:
-        print("\nSomething went wrong during the setup. Make sure you run this script as administrator. If these issues persist, please follow the instructions on the spag wiki to perform the setup manually.")
+        print("\nSomething went wrong during the setup. Make sure you run this script as administrator. If these issues persist, please follow the instructions on the ACE3 wiki to perform the setup manually.")
     else:
         print("\nSetup successfully completed.")
 
