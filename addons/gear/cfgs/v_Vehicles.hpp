@@ -11,7 +11,7 @@ class CfgVehicles
     author = "Taepodong/Kalthramis";
     generalMacro = "S_KitBag_Spag";
     displayName = "Kitbag (SPAGPAT)";
-    hiddenSelectionsTextures[] = { QPATHTOF(pack\kit_ca.paa) };
+    hiddenSelectionsTextures[] = { QPATHTOF(data\pack\kit_ca.paa) };
   };
 
 

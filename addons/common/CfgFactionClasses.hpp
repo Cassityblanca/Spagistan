@@ -1,13 +1,12 @@
 class CfgFactionClasses
 {
-	class SPAG
+	class SPAG_F
 	 {
-		scope = 2;
 		displayName = "Spagistan";
-		flag = QPATHTOF(gui\Spag_Flag_Square_ca.paa);
-		icon = QPATHTOF(gui\Spag_Flag_Square_ca.paa);
 		priority = 0;
 		side = 2;
+		/* icon = QPATHTOF(gui\Spag_Flag_Square_ca.paa);
+		flag = QPATHTOF(gui\Spag_Flag_Square_ca.paa); */
 	 };
 };
 

@@ -23,7 +23,7 @@ class TFAR_SPAG_mr3000: TFAR_mr3000
   author = "Taepodong/Kalthramis";
   displayName = "MR3000 BWMOD [SPAGPAT]";
   descriptionShort = "Spagistan-camo LR Radio";
-  hiddenSelectionsTextures[] = { QPATHTOF(pack\MR3000_SPAGPAT_ca.paa) };
+  hiddenSelectionsTextures[] = { QPATHTOF(data\pack\MR3000_SPAGPAT_ca.paa) };
 };
 
 class S_KitBag_Spag: B_Kitbag_rgr
@@ -35,7 +35,7 @@ class S_KitBag_Spag: B_Kitbag_rgr
   displayName = "Kitbag (SPAGPAT)";
   /* picture = "\A3\weapons_f\ammoboxes\bags\ui\icon_B_C_Compact_dgtl_ca.paa"; */
   /* hiddenSelections[] = { "camo"	}; */
-  hiddenSelectionsTextures[] = { QPATHTOF(pack\kit_ca.paa) };
+  hiddenSelectionsTextures[] = { QPATHTOF(data\pack\kit_ca.paa) };
   /* maximumLoad = 280;
   mass = 50; */
 };

@@ -6,8 +6,10 @@ class CfgMarkers
 	class flag_Spain;
 	class flag_Spagistan : flag_Spain
 	{
+		scope = 2;
 		name = "Spagistan";
-		icon = QPATHTOF(gui\Spag_Flag_ca.paa);
+		icon = QPATHTOF(gui\Spag_Flag_Square_ca.paa);
 		texture = QPATHTOF(gui\Spag_Flag_ca.paa);
+		size = 32;
 	};
 };

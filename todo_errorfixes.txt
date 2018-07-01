@@ -1,0 +1,585 @@
+
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.type'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.picture'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.Library'.
+ 3:59:33 Warning Message: No entry '.libTextDesc'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.model'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.simulation'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.fireLightDuration'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.fireLightIntensity'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.fireLightDiffuse'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.fireLightAmbient'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.weaponLockDelay'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.weaponLockSystem'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.cmImmunity'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.weight'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.lockingTargetSound'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.lockedTargetSound'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.detectRange'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgWeapons/ItemInfo.muzzles'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.scope'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.model'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.simulation'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.accuracy'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.camouflage'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.audible'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.displayName'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.textSingular'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.speechSingular'.
+ 3:59:33 unable to load bin\config.bin/CfgVehicles/AnimationSources.speechSingular
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.textPlural'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.speechPlural'.
+ 3:59:33 unable to load bin\config.bin/CfgVehicles/AnimationSources.speechPlural
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.maxDetectRange'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.detectSkill'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.mineAlertIconRange'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.weaponSlots'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.spotableNightLightsOff'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.spotableDarkNightLightsOff'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.spotableNightLightsOn'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.nameSound'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.side'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.destrType'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.picture'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.portrait'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.icon'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.cost'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.fuelCapacity'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.fuelConsumptionRate'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.armor'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.crewCrashProtection'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.damageResistance'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.groupCameraPosition'.
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.groupCameraPosition'.
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.groupCameraPosition'.
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.extCameraPosition'.
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.extCameraPosition'.
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.extCameraPosition'.
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.maxSpeed'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.limitedSpeedCoef'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.secondaryExplosion'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.sensitivity'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.sensitivityEar'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.brakeDistance'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.precision'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.formationX'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.formationZ'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.formationTime'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.steerAheadSimul'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.steerAheadPlan'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.ViewPilot'.
+ 3:59:33 Warning Message: No entry '.initFov'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.minFov'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.maxFov'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.initAngleY'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.minAngleY'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.maxAngleY'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.initAngleX'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.minAngleX'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.maxAngleX'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.HeadLimits'.
+ 3:59:33 Warning Message: No entry '.rotZRadius'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.initAngleY'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.minAngleY'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.maxAngleY'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.initAngleX'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.minAngleX'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.maxAngleX'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.minAngleZ'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.maxAngleZ'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.PilotSpec'.
+ 3:59:33 Warning Message: No entry '.showHeadPhones'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.predictTurnSimul'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.predictTurnPlan'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.minFireTime'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.enableWatch'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.enableRadio'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.transportFuel'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.transportRepair'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.transportAmmo'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.transportMaxWeapons'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.transportMaxMagazines'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.transportMaxBackpacks'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.allowTabLock'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.showAllTargets'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.TransportWeapons'.
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.TransportMagazines'.
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.alwaysTarget'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.irTarget'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.irScanToEyeFactor'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.irScanRangeMin'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.irScanRangeMax'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.nightVision'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.laserScanner'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.laserTarget'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.nvTarget'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.artilleryTarget'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.artilleryScanner'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.nvScanner'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.commanderCanSee'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.driverCanSee'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.gunnerCanSee'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.radarType'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.attendant'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.engineer'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.uavHacker'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.preferRoads'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.hideUnitInfo'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundEngine'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundDammage'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundGetIn'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundGetOut'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundServo'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundEngineOnInt'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundEngineOffInt'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundEngineOnExt'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundEngineOffExt'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundLocked'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundIncommingMissile'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundGearUp'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundGearDown'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundCrashes'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundLandCrashes'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundWaterCrashes'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundWoodCrash'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundBushCrash'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundBuildingCrash'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.soundArmorCrash'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.weapons'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.magazines'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.threat'.
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/AnimationSources.type'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.scope'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.model'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.simulation'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.accuracy'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.camouflage'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.audible'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.displayName'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.textSingular'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.speechSingular'.
+ 3:59:33 unable to load bin\config.bin/CfgVehicles/Turrets.speechSingular
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.textPlural'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.speechPlural'.
+ 3:59:33 unable to load bin\config.bin/CfgVehicles/Turrets.speechPlural
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.maxDetectRange'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.detectSkill'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.mineAlertIconRange'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.weaponSlots'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.spotableNightLightsOff'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.spotableDarkNightLightsOff'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.spotableNightLightsOn'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.nameSound'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.side'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.destrType'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.picture'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.portrait'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.icon'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.cost'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.fuelCapacity'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.fuelConsumptionRate'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.armor'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.crewCrashProtection'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.damageResistance'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.groupCameraPosition'.
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.groupCameraPosition'.
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.groupCameraPosition'.
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.extCameraPosition'.
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.extCameraPosition'.
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.extCameraPosition'.
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.maxSpeed'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.limitedSpeedCoef'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.secondaryExplosion'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.sensitivity'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.sensitivityEar'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.brakeDistance'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.precision'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.formationX'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.formationZ'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.formationTime'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.steerAheadSimul'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.steerAheadPlan'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.ViewPilot'.
+ 3:59:33 Warning Message: No entry '.initFov'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.minFov'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.maxFov'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.initAngleY'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.minAngleY'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.maxAngleY'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.initAngleX'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.minAngleX'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.maxAngleX'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.HeadLimits'.
+ 3:59:33 Warning Message: No entry '.rotZRadius'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.initAngleY'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.minAngleY'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.maxAngleY'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.initAngleX'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.minAngleX'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.maxAngleX'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.minAngleZ'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry '.maxAngleZ'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.PilotSpec'.
+ 3:59:33 Warning Message: No entry '.showHeadPhones'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.predictTurnSimul'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.predictTurnPlan'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.minFireTime'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.enableWatch'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.enableRadio'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.transportFuel'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.transportRepair'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.transportAmmo'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.transportMaxWeapons'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.transportMaxMagazines'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.transportMaxBackpacks'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.allowTabLock'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.showAllTargets'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.TransportWeapons'.
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.TransportMagazines'.
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.alwaysTarget'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.irTarget'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.irScanToEyeFactor'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.irScanRangeMin'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.irScanRangeMax'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.nightVision'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.laserScanner'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.laserTarget'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.nvTarget'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.artilleryTarget'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.artilleryScanner'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.nvScanner'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.commanderCanSee'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.driverCanSee'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.gunnerCanSee'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.radarType'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.attendant'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.engineer'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.uavHacker'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.preferRoads'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.hideUnitInfo'.
+ 3:59:33 Warning Message: '/' is not a value
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundEngine'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundDammage'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundGetIn'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundGetOut'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundServo'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundEngineOnInt'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundEngineOffInt'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundEngineOnExt'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundEngineOffExt'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundLocked'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundIncommingMissile'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundGearUp'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundGearDown'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundCrashes'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundLandCrashes'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundWaterCrashes'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundWoodCrash'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundBushCrash'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundBuildingCrash'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.soundArmorCrash'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.weapons'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.magazines'.
+ 3:59:33 Warning Message: Size: '/' not an array
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.threat'.
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: []: '/' not an array
+ 3:59:33 Cannot evaluate '' - no file
+ 3:59:33 Warning Message: No entry 'bin\config.bin/CfgVehicles/Turrets.type'.
+ 3:59:33 Warning Message: '/' is not a value

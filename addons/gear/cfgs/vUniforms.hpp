@@ -11,7 +11,7 @@ class U_S_SPAGPAT: rhssaf_soldier_army_para_digital_base
   nakedUniform = "U_BasicBody";
   uniformClass = "U_S_Uniform_SPAGPAT";
   hiddenSelections[] = {"camo","Insignia"};
-  hiddenSelectionsTextures[] = { QPATHTOF(uniforms\m10_SPAGPAT_ca.paa) };
+  hiddenSelectionsTextures[] = { QPATHTOF(data\uniforms\m10_d_spag_co.paa) };
 };
 
 // UNIFORM GROUND HOLDERS
@@ -27,7 +27,7 @@ class Item_U_S_Soldier_Base : U_S_SPAGPAT
     class U_S_Soldier_Base
     {
       name = U_S_Soldier_Base;
-      hiddenSelectionsTextures[] = { QPATHTOF(uniforms\m10_SPAGPAT_ca.paa) };
+      hiddenSelectionsTextures[] = { QPATHTOF(data\uniforms\m10_d_spag_co.paa) };
       count = 1;
     };
   };
