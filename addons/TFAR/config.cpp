@@ -8,10 +8,10 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"spag_main", "spag_common"};
         author = authorCOMMON;
-        authors[] = {"Taepodong", "Kalthramis"};
+        authors[] = {"Kalthramis"};
         url = SPAGLINK;
         VERSION_CONFIG;
     };
 };
 
-#include "CfgVehicles.hpp"
+#include "CfgEventHandlers.hpp"

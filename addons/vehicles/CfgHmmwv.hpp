@@ -237,14 +237,14 @@ class hummv_d_SPAGPAT_WPSS: hummv_d_SPAGPAT_troop //WEAPON SQUAD Transport Versi
 	maximumLoad = 2200;
 	ace_cargo_space = 7;
 	transportSoldier = 1;
-	fuelConsumptionRate = 0.02;
-	acceleration = 12;
+	fuelConsumptionRate = 0.015;
+	/* acceleration = 12; */
 	/* lockCargoAnimationPhase = 0; //broke */
 	/* lockCargo[] = {}; */
 	class CargoTurret;
 	class Turrets: Turrets
 	{
-		class CargoTurret_01
+		class CargoTurret_01: CargoTurret
 		{
 			memoryPointsGetInGunner = "";
 		};

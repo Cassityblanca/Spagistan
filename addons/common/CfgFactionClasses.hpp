@@ -3,10 +3,10 @@ class CfgFactionClasses
 	class SPAG_F
 	 {
 		displayName = "Spagistan";
-		priority = 0;
+		priority = 5;
 		side = 2;
-		/* icon = QPATHTOF(gui\Spag_Flag_Square_ca.paa);
-		flag = QPATHTOF(gui\Spag_Flag_Square_ca.paa); */
+		icon = QPATHTOF(gui\Spag_Flag_Square_ca.paa);
+		flag = QPATHTOF(gui\Spag_Flag_ca.paa);
 	 };
 };
 
