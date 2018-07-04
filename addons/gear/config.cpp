@@ -15,5 +15,5 @@ class CfgPatches {
 };
 
 //#include "CfgVehicles_Equipment.hpp"
-#include "cfgs\v_Vehicles.hpp"
-#include "cfgs\w_Weapons.hpp"
+#include "cfgs\Vehicles.hpp"
+#include "cfgs\Weapons.hpp"

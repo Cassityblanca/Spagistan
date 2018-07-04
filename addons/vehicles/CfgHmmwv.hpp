@@ -1,16 +1,22 @@
+//TODO: scrollaction to swap out AR ammo type
+//TODO: on window rolled down, increase tfar talking audio
+//TODO: re-add cargo on back of truck:
+//			init = "if (!(is3Den)) then {_crate = createSimpleObject ['O_CargoNet_01_ammo_F', position (_this select 0)]; _crate disableCollisionWith (_this select 0); _crate attachTo [(_this select 0), [0,0-.745,-0.1]]; };";
+
+
 #define HUMMVSETTINGS scope = 2;\
 scopeCurator = 2;\
 side = 2;\
 author = "RHS/Kalthramis";\
 editorCategory = "Spagistan_Catagory";\
-faction = "Spag_F";\
+faction = QUOTE(SPAGFACTION);\
 tf_hasLRradio = 1;\
 tf_RadioType = "TFAR_anprc155_coyote";\
 tf_isolatedAmount = 0.5;\
 tf_RadioType_api = "TFAR_anprc155_coyote";\
 tf_encryptionCode = "_independent";\
 tf_hasLRradio_api = 1;\
-tf_isolatedAmount_api = 0.2;
+tf_isolatedAmount_api = 0.3;
 
 #define HUMMVSUNIVERSAL QPATHTOF(data\hmmwv\hmv_base_d_spag_co),\
 	QPATHTOF(data\hmmwv\m998_interior_d_co),\
@@ -44,81 +50,139 @@ tf_isolatedAmount_api = 0.2;
 	QPATHTOF(data\hmmwv\hmv_unarmed_decal), \
 	""
 
-//CHANGE HELMET TO M97 (stuff)
-//allow helmets on vest
-//option to lower helmet
-//add thing to arsenal to keep previous radio channel sheit
-
-
 #define HUMMVLOADOUT class TransportBackpacks\
 	{\
-		backpack_xx(S_KitBag_Spag, 2);\
 	};\
 	class TransportWeapons\
 	{\
 		weap_xx(rhs_weap_ak74m, 2);\
-		weap_xx(rhs_weap_rpg26, 2);\
+		weap_xx(rhs_weap_rpg26, 4);\
 	};\
 	class TransportMagazines\
 	{\
-		mag_xx(rhs_30Rnd_545x39_7N22_AK,20);\
-		mag_xx(rhs_200rnd_556x45_m_saw,4);\
-		mag_xx(rhssaf_250rnd_762x54r,4);\
-		mag_xx(rhs_VOG25,30);\
-		mag_xx(rhs_GDM40,30);\
+		mag_xx(rhs_30Rnd_545x39_7N22_AK, 20);\
+		mag_xx(rhs_200rnd_556x45_m_saw, 12);\
+		mag_xx(rhs_VG40TB, 10);\
+		mag_xx(rhs_VOG25p, 10);\
+		mag_xx(rhs_VOG25, 20);\
+		mag_xx(rhs_GDM40, 40);\
+		mag_xx(rhs_mag_rdg2_white, 30);\
+		mag_xx(rhs_mag_rgo, 15);\
 		mag_xx(murshun_cigs_cigpack, 4);\
 		mag_xx(murshun_cigs_lighter, 4);\
 	};\
 	class TransportItems\
 	{\
-		item_xx(ACE_EntrenchingTool, 1);\
+		item_xx(ACE_elasticBandage, 20);\
+		item_xx(ACE_quikclot, 20);\
+		item_xx(ACE_EarPlugs, 4);\
+		item_xx(ACE_EntrenchingTool, 2);\
+	};
+//	animPeriod = ;
+
+#define REQURIEDANIMS class longlights_hide	{\
+		source = "user";\
+		animPeriod = 0.000001;\
+		initPhase = 1;\
+	};\
+	class shortlights_hide: longlights_hide { initPhase = 0; };\
+	class lights_hide: longlights_hide { initPhase = 0; };\
+	class light_bo {\
+		source = "user";\
+		animPeriod = 0.4;\
+		initPhase = 1;\
+	};\
+	class  hide_A2_Parts: light_bo {\
+		initPhase = 0;\
+		displayName = "Hide A2 Parts";\
+	};\
+	class Hide_Snorkel: light_bo {\
+		displayName = "Hide Snorkel";\
+	};\
+	class  hide_CIP: light_bo {\
+		displayName = "Hide CIP";\
+	};\
+	class  hide_BFT: light_bo {\
+		displayName = "Hide BFT";\
+	};\
+	class hide_Antenna: light_bo {\
+		initPhase = 0;\
+		displayName = "Hide Antenna";\
+	};\
+	class  Hide_A2Bumper: light_bo {\
+		displayName = "Hide A2 Bumper";\
+	};\
+	class Door_LF {\
+		source="door";\
+		animPeriod = 0.5;\
+		sound = "RHS_HMMWV_Door";\
+		soundPosition = "door_1_axis";\
+	};\
+	class Door_RF: Door_LF {\
+		soundPosition = "door_2_axis";\
+	};\
+	class trunk {\
+		source = "user";\
+		animPeriod = 1.1;\
+		initPhase = 0;\
+	};\
+	class ani_window_1 {\
+		source = "door";\
+		animPeriod = 0.8;\
+		initPhase = 0;\
+	};\
+	class  ani_window_2: ani_window_1 {	};\
+	class  ani_window_3: ani_window_1 {	};\
+	class  ani_window_4: ani_window_1 { };
+
+#define BACKDOORS class Door_LB: Door_LF {\
+		soundPosition = "door_3_axis";\
+	};\
+	class Door_RB: Door_LF {\
+		soundPosition = "door_4_axis";\
 	};
 
-#define HIDEA2 	class  light_bo\
-			{\
-				source = "user";\
-				initPhase = 1;\
-				animPeriod = 0.00001;\
-			};\
-			class  hide_A2_Parts: light_bo\
-			{\
-				initPhase = 0;\
-				displayName = "Hide A2 Parts";\
-			};\
-			class Hide_Snorkel: light_bo\
-			{\
-				displayName = "Hide Snorkel";\
-			};\
-			class  hide_CIP: light_bo\
-			{\
-				displayName = "Hide CIP";\
-			};\
-			class  hide_BFT: light_bo\
-			{\
-				displayName = "Hide BFT";\
-			};\
-			class hide_Antenna: light_bo\
-			{\
-				initPhase = 0;\
-				displayName = "Hide Antenna";\
-			};\
-			class  Hide_A2Bumper: light_bo\
-			{\
-				displayName = "Hide A2 Bumper";\
-			};
-
 //Parents
-class AnimationSources {} ;
-	class EventHandlers {};
-	class UserActions {};
-	class Turrets {};
-	class rhsusf_m1025_d ; //hmv
-	class rhsusf_m1025_d_m2 ; //ar
-	class rhsusf_m1025_d_mk19  ; //gl
-	class rhsusf_m998_d_2dr_fulltop ; //troop Transport
-	class rhsusf_m998_d_4dr_fulltop ; //softop full
-	class rhsusf_m998_d_4dr_halftop ; //softop half
-	class rhsusf_m998_d_4dr ; //open
+/* class AnimationSources;
+	class EventHandlers; */
+class rhsusf_hmmwe_base;
+	class rhsusf_m1025_d: rhsusf_hmmwe_base
+	{
+		class AnimationSources;
+	};
+	class rhsusf_m1025_d_m2: rhsusf_hmmwe_base {
+		class AnimationSources;
+	};
+	class rhsusf_m1025_d_mk19: rhsusf_hmmwe_base {
+		class AnimationSources;
+	};
+	class rhsusf_m998_d_2dr_fulltop: rhsusf_hmmwe_base {
+		class AnimationSources;
+	};
+	class rhsusf_m998_d_4dr_fulltop: rhsusf_hmmwe_base {
+		class AnimationSources
+		{
+			class longlights_hide	{
+					source = "user";
+					animPeriod = 0.000001;
+					initPhase = 1;
+				};
+				class shortlights_hide: longlights_hide { initPhase = 0; };
+				class lights_hide: longlights_hide { initPhase = 0; };
+				class light_bo {
+					source = "user";
+					animPeriod = 0.4;
+					initPhase = 1;
+				};
+		};
+	};
+	class rhsusf_m998_d_4dr_halftop: rhsusf_hmmwe_base {
+		class AnimationSources;
+	};
+	class rhsusf_m998_d_4dr: rhsusf_hmmwe_base {
+		class AnimationSources;
+	};
+
 
 class hummv_d_SPAGPAT: rhsusf_m1025_d
 {
@@ -134,21 +198,19 @@ class hummv_d_SPAGPAT: rhsusf_m1025_d
 		QPATHTOF(data\hmmwv\tile_exmetal_d_co),
 		QPATHTOF(data\hmmwv\hmv_metalTop_d_spag_co),
 		QPATHTOF(data\hmmwv\hmv_unarmed_decal),
-		""
-	 };
+		"" };
 	class textureSources
 	{
-
 		class Spagpat
 		{
 			displayName = "Spagpat";
-			factions[] = {SPAG_F};
+			factions[] = { SPAG_F };
 			textures[] = { HUMMVSUNIVERSAL };
 		};
 	};
-	class AnimationSources: AnimationSources
-	{
-		HIDEA2
+	class AnimationSources: AnimationSources {
+		REQURIEDANIMS
+		BACKDOORS
 	};
 };
 
@@ -159,7 +221,6 @@ class hummv_d_SPAGPAT_ar: rhsusf_m1025_d_m2 //ar
 	HiddenSelectionsTextures[] = { HUMMVSUNIVERSALARMED };
 	class textureSources
 	{
-
 		class Spagpat
 		{
 			displayName = "Spagpat";
@@ -168,9 +229,9 @@ class hummv_d_SPAGPAT_ar: rhsusf_m1025_d_m2 //ar
 		};
 	};
 
-	class AnimationSources: AnimationSources
-	{
-		HIDEA2
+	class AnimationSources: AnimationSources {
+		REQURIEDANIMS
+		BACKDOORS
 	};
 };
 
@@ -182,7 +243,6 @@ class hummv_d_SPAGPAT_gl: rhsusf_m1025_d_mk19 //gl
 	HiddenSelectionsTextures[] = { HUMMVSUNIVERSALARMED };
 	class textureSources
 	{
-
 		class Spagpat
 		{
 			displayName = "Spagpat";
@@ -191,9 +251,9 @@ class hummv_d_SPAGPAT_gl: rhsusf_m1025_d_mk19 //gl
 		};
 	};
 
-	class AnimationSources: AnimationSources
-	{
-		HIDEA2
+	class AnimationSources: AnimationSources {
+		REQURIEDANIMS
+		BACKDOORS
 	};
 };
 
@@ -204,7 +264,6 @@ class hummv_d_SPAGPAT_troop: rhsusf_m998_d_2dr_fulltop //troop Transport
 	HiddenSelectionsTextures[] = { HUMMVSUNIVERSALSOFT(m998_2drcargo_d_co) };
 	class textureSources
 	{
-
 		class Spagpat
 		{
 			displayName = "Spagpat";
@@ -214,7 +273,7 @@ class hummv_d_SPAGPAT_troop: rhsusf_m998_d_2dr_fulltop //troop Transport
 	};
 	class AnimationSources: AnimationSources
 	{
-		HIDEA2
+		REQURIEDANIMS
 		class  hide_frontTop: light_bo
 		{
 			displayName = "Hide Frontop";
@@ -223,11 +282,11 @@ class hummv_d_SPAGPAT_troop: rhsusf_m998_d_2dr_fulltop //troop Transport
 		class  hide_backTop: light_bo
 		{
 			initPhase = 0;
-			displayName="Hide Canopy";
+			displayName = "Hide Canopy";
 		};
 	};
 };
-//hint str (Box_East_AmmoVeh_F in (nearestObjects [player, ["Box_East_AmmoVeh_F"], 5]))
+
 class hummv_d_SPAGPAT_WPSS: hummv_d_SPAGPAT_troop //WEAPON SQUAD Transport Version
 {
 	displayName = "M10 Cargo";
@@ -238,48 +297,15 @@ class hummv_d_SPAGPAT_WPSS: hummv_d_SPAGPAT_troop //WEAPON SQUAD Transport Versi
 	ace_cargo_space = 7;
 	transportSoldier = 1;
 	fuelConsumptionRate = 0.015;
-	/* acceleration = 12; */
-	/* lockCargoAnimationPhase = 0; //broke */
-	/* lockCargo[] = {}; */
-	class CargoTurret;
-	class Turrets: Turrets
-	{
-		class CargoTurret_01: CargoTurret
-		{
-			memoryPointsGetInGunner = "";
-		};
-		class CargoTurret_02: CargoTurret_01 { };
-	};
-	//In case box is removed
-	/* class UserActions: UserActions
-	{
-		class showCargo
-		{
-			//TODO: make the object interactable, and require it to find a nearby box (that is far enough away to avoid checkin self)
-			displayName = "<t color='#499273'>Show Ammobox</t>";
-			position = "pos_cargo";
-			radius = 3;
-			onlyForplayer = false;
-			condition = "count (nearestObjects [this, ['Box_East_AmmoVeh_F'], 5]) < 1;";
-			statement = "_crate = createSimpleObject ['O_CargoNet_01_Ammo_f', (position _this select 0)]; _crate disableCollisionWith this; _crate attachTo [this, [0,-1,-0.1]];";
-		};
-	}; */
 
-	//_crate = createSimpleObject ['O_CargoNet_01_ammo_F', position (_this select 0)]; _crate disableCollisionWith (_this select 0); _crate attachTo [(_this select 0), [0,0-.75,-0.1]];
-	//_box = createSimpleObject ['Box_CSAT_Equip_F', position (_this select 0)]; _box disableCollisionWith (_this select 0); _box attachTo [(_this select 0), [0,0-.75,-0.1]]; _box attachTo [(_this select 0), [0,-1.83,-0.6]]; _box setDir ( ( getDir (_this select 0) ) - 90 );
-	class EventHandlers: EventHandlers
-	{
-		init = "if (!(is3Den) && local (_this select 0)) then {_crate = createSimpleObject ['O_CargoNet_01_ammo_F', position (_this select 0)]; _crate disableCollisionWith (_this select 0); _crate attachTo [(_this select 0), [0,0-.745,-0.1]]; _box = createSimpleObject ['Box_CSAT_Equip_F', position (_this select 0)]; _box disableCollisionWith (_this select 0); _box attachTo [(_this select 0), [0,0-.75,-0.1]]; _box attachTo [(_this select 0), [0,-1.83,-0.6]]; _box setDir ((getDir (_this select 0)) - 90);};";
-	};
 	class AnimationSources: AnimationSources
 	{
+		REQURIEDANIMS
 		class  hide_backTop: light_bo
 		{
 			initPhase = 1;
-			displayName="Hide Canopy (CLIPPING ISSUES, Not recommended!)";
 		};
 	};
-
 };
 
 class hummv_d_SPAGPAT_softF: rhsusf_m998_d_4dr_fulltop //softop full
@@ -289,7 +315,6 @@ class hummv_d_SPAGPAT_softF: rhsusf_m998_d_4dr_fulltop //softop full
 	HiddenSelectionsTextures[] = { HUMMVSUNIVERSALSOFT(m998_4drcargo_d_co) };
 	class textureSources
 	{
-
 		class Spagpat
 		{
 			displayName = "Spagpat";
@@ -299,7 +324,8 @@ class hummv_d_SPAGPAT_softF: rhsusf_m998_d_4dr_fulltop //softop full
 	};
 	class AnimationSources: AnimationSources
 	{
-		HIDEA2
+		REQURIEDANIMS
+		BACKDOORS
 	};
 };
 
@@ -307,12 +333,9 @@ class hummv_d_SPAGPAT_softH: rhsusf_m998_d_4dr_halftop //softop half
 {
 	HUMMVSETTINGS
 	HUMMVLOADOUT
-
 	HiddenSelectionsTextures[] = { HUMMVSUNIVERSALSOFT(m998_4drcargo_d_co) };
-
 	class textureSources
 	{
-
 		class Spagpat
 		{
 			displayName = "Spagpat";
@@ -322,7 +345,7 @@ class hummv_d_SPAGPAT_softH: rhsusf_m998_d_4dr_halftop //softop half
 	};
 	class AnimationSources: AnimationSources
 	{
-		HIDEA2
+		REQURIEDANIMS
 		class hide_frontTop: light_bo
 		{
 			source = "user";
@@ -350,7 +373,6 @@ class hummv_d_SPAGPAT_open: rhsusf_m998_d_4dr //open
 	HiddenSelectionsTextures[] = { HUMMVSUNIVERSALSOFT(m998_4drcargo_d_co) };
 	class textureSources
 	{
-
 		class Spagpat
 		{
 			displayName = "Spagpat";
@@ -360,7 +382,8 @@ class hummv_d_SPAGPAT_open: rhsusf_m998_d_4dr //open
 	};
 	class AnimationSources: AnimationSources
 	{
-		HIDEA2
+		REQURIEDANIMS
+		BACKDOORS
 		class hide_frontTop: light_bo
 		{
 			initPhase = 1;

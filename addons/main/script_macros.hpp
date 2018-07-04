@@ -16,4 +16,5 @@
 
 
 // Spagistan Specific
-#define DEFAULTCAM SPAGCAM
+#define SPAGCAMNAME Spagcam
+#define SPAGFACTION Spag_F
