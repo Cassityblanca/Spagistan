@@ -32,7 +32,7 @@ class S_KitBag_Spag: B_Kitbag_rgr
   scopeArsenal = 2;
   author = "Taepodong/Kalthramis";
   generalMacro = "S_KitBag_Spag";
-  displayName = "Kitbag (SPAGPAT)";
+  displayName = "Kitbag (Spagpat)";
   /* picture = "\A3\weapons_f\ammoboxes\bags\ui\icon_B_C_Compact_dgtl_ca.paa"; */
   /* hiddenSelections[] = { "camo"	}; */
   hiddenSelectionsTextures[] = { QPATHTOF(data\pack\kit_ca.paa) };
@@ -42,4 +42,4 @@ class S_KitBag_Spag: B_Kitbag_rgr
 
 
 //  BACKWARDS COMPATIBILITY
-class spagbag: S_KitBag_Spag	{ scope = 1; scopeArsenal = 1; };
+class spagbag: S_KitBag_Spag	{ displayName = "(DEPRICATED) Kitbag (Spagpat)"; scope = 1; scopeArsenal = 1; };

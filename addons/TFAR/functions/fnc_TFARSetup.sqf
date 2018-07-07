@@ -28,8 +28,8 @@ TFAR_defaultFrequencies_sr_independent = ["100"];
 } */
 
 /* 100 call TFAR_fnc_setVoiceVolume;*/
-player setVariable ["tf_globalVolume", 1];
-player setVariable ["tf_voiceVolume", 1, true];
+/* player setVariable ["tf_globalVolume", 1];
+player setVariable ["tf_voiceVolume", 1, true]; */
 
 
 //TO CHECK IN MISSIONS:

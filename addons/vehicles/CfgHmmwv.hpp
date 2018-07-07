@@ -50,35 +50,6 @@ tf_isolatedAmount_api = 0.3;
 	QPATHTOF(data\hmmwv\hmv_unarmed_decal), \
 	""
 
-#define HUMMVLOADOUT class TransportBackpacks\
-	{\
-	};\
-	class TransportWeapons\
-	{\
-		weap_xx(rhs_weap_ak74m, 2);\
-		weap_xx(rhs_weap_rpg26, 4);\
-	};\
-	class TransportMagazines\
-	{\
-		mag_xx(rhs_30Rnd_545x39_7N22_AK, 20);\
-		mag_xx(rhs_200rnd_556x45_m_saw, 12);\
-		mag_xx(rhs_VG40TB, 10);\
-		mag_xx(rhs_VOG25p, 10);\
-		mag_xx(rhs_VOG25, 20);\
-		mag_xx(rhs_GDM40, 40);\
-		mag_xx(rhs_mag_rdg2_white, 30);\
-		mag_xx(rhs_mag_rgo, 15);\
-		mag_xx(murshun_cigs_cigpack, 4);\
-		mag_xx(murshun_cigs_lighter, 4);\
-	};\
-	class TransportItems\
-	{\
-		item_xx(ACE_elasticBandage, 20);\
-		item_xx(ACE_quikclot, 20);\
-		item_xx(ACE_EarPlugs, 4);\
-		item_xx(ACE_EntrenchingTool, 2);\
-	};
-//	animPeriod = ;
 
 #define REQURIEDANIMS class longlights_hide	{\
 		source = "user";\
@@ -187,7 +158,7 @@ class rhsusf_hmmwe_base;
 class hummv_d_SPAGPAT: rhsusf_m1025_d
 {
 	HUMMVSETTINGS
-	HUMMVLOADOUT
+	VEHICLEINVENTORY
 	HiddenSelectionsTextures[] = {
 		QPATHTOF(data\hmmwv\hmv_base_d_spag_co),
 		QPATHTOF(data\hmmwv\m998_interior_d_co),
@@ -217,7 +188,7 @@ class hummv_d_SPAGPAT: rhsusf_m1025_d
 class hummv_d_SPAGPAT_ar: rhsusf_m1025_d_m2 //ar
 {
 	HUMMVSETTINGS
-	HUMMVLOADOUT
+	VEHICLEINVENTORY
 	HiddenSelectionsTextures[] = { HUMMVSUNIVERSALARMED };
 	class textureSources
 	{
@@ -239,7 +210,7 @@ class hummv_d_SPAGPAT_ar: rhsusf_m1025_d_m2 //ar
 class hummv_d_SPAGPAT_gl: rhsusf_m1025_d_mk19 //gl
 {
 	HUMMVSETTINGS
-	HUMMVLOADOUT
+	VEHICLEINVENTORY
 	HiddenSelectionsTextures[] = { HUMMVSUNIVERSALARMED };
 	class textureSources
 	{
@@ -260,7 +231,7 @@ class hummv_d_SPAGPAT_gl: rhsusf_m1025_d_mk19 //gl
 class hummv_d_SPAGPAT_troop: rhsusf_m998_d_2dr_fulltop //troop Transport
 {
 	HUMMVSETTINGS
-	HUMMVLOADOUT
+	VEHICLEINVENTORY
 	HiddenSelectionsTextures[] = { HUMMVSUNIVERSALSOFT(m998_2drcargo_d_co) };
 	class textureSources
 	{
@@ -311,7 +282,7 @@ class hummv_d_SPAGPAT_WPSS: hummv_d_SPAGPAT_troop //WEAPON SQUAD Transport Versi
 class hummv_d_SPAGPAT_softF: rhsusf_m998_d_4dr_fulltop //softop full
 {
 	HUMMVSETTINGS
-	HUMMVLOADOUT
+	VEHICLEINVENTORY
 	HiddenSelectionsTextures[] = { HUMMVSUNIVERSALSOFT(m998_4drcargo_d_co) };
 	class textureSources
 	{
@@ -332,7 +303,7 @@ class hummv_d_SPAGPAT_softF: rhsusf_m998_d_4dr_fulltop //softop full
 class hummv_d_SPAGPAT_softH: rhsusf_m998_d_4dr_halftop //softop half
 {
 	HUMMVSETTINGS
-	HUMMVLOADOUT
+	VEHICLEINVENTORY
 	HiddenSelectionsTextures[] = { HUMMVSUNIVERSALSOFT(m998_4drcargo_d_co) };
 	class textureSources
 	{
@@ -369,7 +340,7 @@ class hummv_d_SPAGPAT_softH: rhsusf_m998_d_4dr_halftop //softop half
 class hummv_d_SPAGPAT_open: rhsusf_m998_d_4dr //open
 {
 	HUMMVSETTINGS
-	HUMMVLOADOUT
+	VEHICLEINVENTORY
 	HiddenSelectionsTextures[] = { HUMMVSUNIVERSALSOFT(m998_4drcargo_d_co) };
 	class textureSources
 	{

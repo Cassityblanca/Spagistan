@@ -2,7 +2,7 @@
 class rhsgref_cdf_bmp1;
 
 //white un:
-hiddenSelectionsTextures[] = {
+/* hiddenSelectionsTextures[] = {
 	"\po_factions_fic\un\Data\bmp_1_un_co.paa","\po_factions_fic\un\Data\bmp_2_un_co.paa",
 	"\po_factions_fic\un\Data\bmp_3_un_co.paa","\po_factions_fic\un\Data\bmp_4_un_co.paa",
 	"\po_factions_fic\un\Data\bmp_5_un_co.paa","\po_factions_fic\un\Data\bmp_6_un_co.paa"
@@ -13,7 +13,7 @@ hiddenSelectionsTextures[] = {
 	"po_factions_me\IRAN\data\bmp_1_iran_co.paa","\po_factions_me\IRAN\data\bmp_2_iran_co.paa",
 	"\po_factions_me\IRAN\data\bmp_3_iran_co.paa","\po_factions_me\IRAN\data\bmp_4_iran_co.paa",
 	"\po_factions_me\IRAN\data\bmp_5_iran_co.paa","\po_factions_me\IRAN\data\bmp_6_iran_co.paa"
-	};
+	}; */
 class BMP_Spagpat: rhsgref_cdf_bmp1
 {
 	displayName = "SPAG bmp";
@@ -30,6 +30,7 @@ class BMP_Spagpat: rhsgref_cdf_bmp1
 	tf_encryptionCode = "_independent";
 	tf_hasLRradio_api = 1;
 	tf_isolatedAmount_api = 0.3;
+	VEHICLEINVENTORY
 	HiddenSelectionsTextures[] = {QPATHTOF(data\bmp\bmp_1_spagpat.paa), QPATHTOF(data\bmp\bmp_2_spagpat.paa),
 		 QPATHTOF(data\bmp\bmp_3_spagpat.paa), QPATHTOF(data\bmp\bmp_4_spagpat.paa),
 		 QPATHTOF(data\bmp\bmp_5_spagpat.paa), QPATHTOF(data\bmp\bmp_6_spagpat.paa),

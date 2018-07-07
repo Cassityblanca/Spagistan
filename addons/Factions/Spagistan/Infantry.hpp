@@ -1,6 +1,7 @@
 
 //SoldierGB
 class I_G_Soldier_base_F;
+class I_G_Soldier_F;
 /* {
 	author = "Bohemia Interactive";
 	_generalMacro = "I_G_Soldier_base_F";
@@ -72,7 +73,7 @@ class S_Soldier_Base: I_G_Soldier_base_F
 	respawnLinkedItems[] = { };
 };
 
-class S_Soldier_Survivor: I_G_Soldier_base_F {
+class S_Soldier_Survivor: I_G_Soldier_F {
 	author = "Kalthramis";
 	/* editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_G_Soldier_F.jpg"; */
 	_generalMacro = "Spagistan_Survivor";
@@ -83,9 +84,13 @@ class S_Soldier_Survivor: I_G_Soldier_base_F {
 	editorCategory = "Spagistan_Catagory";
 	role = "Soldier";
 	displayName = "Spagistan Soldier";
-	uniformClass = "rhs_msv_rifleman_m88_patchless";
-	backpack = "";
+	/* nakedUniform = "U_BasicBody";
+	uniformClass = "U_Rangemaster"; */
+	modelSides[] = {0, 1, 2, 3};
 
+	backpack = "";
+/* [[],[],[],["U_BG_Guerilla1_1",[]],[],[],"","",[],["","","","","",""]] */
+//[[],[],["rhs_weap_tt33","","","",["rhs_mag_762x25_8",8],[],""],["rhs_uniform_m88_patchless",[]],["rhs_vest_pistol_holster",[["HandGrenade",2,1]]],[],"RHSSAF_beret_green","",[],["ItemMap","","ItemRadio","ItemCompass","ItemWatch",""]]
 	magazines[] = {};
 	respawnMagazines[] = {};
 	weapons[] = {"Throw", "Put"};
@@ -97,6 +102,7 @@ class S_Soldier_Survivor: I_G_Soldier_base_F {
 
 class S_Soldier_PVT: S_Soldier_Survivor {
 	rank = "Private";
+	/* add[] = {{"uniform", "rhs_uniform_m88_patchless"}}; */
 	displayName = "Private";
 };
 

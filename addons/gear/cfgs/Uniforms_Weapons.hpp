@@ -37,7 +37,7 @@ class U_S_Uniform_Neck_SPAGPAT: rhssaf_uniform_m10_digital_desert
 		uniformClass = "U_S_Neck_SPAGPAT";
 		/* uniformClass = "rhssaf_soldier_army_digital_base"; */
 		containerClass = "Supply60";
-		mass=40;
+		mass = 40;
 	};
 };
 

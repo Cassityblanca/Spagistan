@@ -15,7 +15,7 @@ class CfgPatches {
     };
 };
 
-#include "CfgMarkers.hpp"
-#include "CfgEditorCategories.hpp"
-#include "CfgSettings.hpp"
-#include "CfgUnitInsignia.hpp"
+#include "Cfgs/CfgMarkers.hpp"
+#include "Cfgs/CfgEditorCategories.hpp"
+#include "Cfgs/CfgSettings.hpp"
+#include "Cfgs/CfgUnitInsignia.hpp"

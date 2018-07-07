@@ -39,7 +39,7 @@ class rhssaf_vest_md12_digital;
 
 class S_Vest_SPAGPAT: rhssaf_vest_md12_digital
 {
-  displayName="Spagistan Ballistic Vest";
+  displayName = "Ballistic Vest (Spagpat)";
   author = "Taepodong";
   hiddenSelections[]=
   {
@@ -55,4 +55,4 @@ class S_Vest_SPAGPAT: rhssaf_vest_md12_digital
 
 //  BACKWARDS COMPATIBILITY
 
-class m12_spag: S_Vest_SPAGPAT { scope = 1; scopeArsenal = 1; };
+class m12_spag: S_Vest_SPAGPAT { displayName = "(DEPRICATED) Ballistic Vest (Spagpat)" scope = 1; scopeArsenal = 1; };
