@@ -20,6 +20,17 @@ TF_defaultEastBackpack = "TFAR_SPAG_mr3000";
 // OVERRIDE
 TFAR_defaultFrequencies_sr_east = ["100"];
 TFAR_defaultFrequencies_sr_independent = ["100"];
+
+
+0 enableChannel [true, false];  //Global - Text Only
+1 enableChannel false; //Side
+2 enableChannel false; //Command
+3 enableChannel [true, false]; //Group
+4 enableChannel false; //Vehicle
+5 enableChannel [true, false]; //Direct
+setCurrentChannel 0; //Change to Global
+
+
 //TFAR_fnc_setAdditionalLrStereo
 
 // VOLUMES

@@ -1,5 +1,5 @@
 #include "script_component.hpp"
-#include "CfgFactionClasses.hpp"
+
 
 class CfgPatches {
     class ADDON {
@@ -15,7 +15,10 @@ class CfgPatches {
     };
 };
 
+#include "Cfgs/CfgFactionClasses.hpp"
 #include "Cfgs/CfgMarkers.hpp"
 #include "Cfgs/CfgEditorCategories.hpp"
 #include "Cfgs/CfgSettings.hpp"
 #include "Cfgs/CfgUnitInsignia.hpp"
+#include "Cfgs/CfgEventHandlers.hpp"
+#include "Cfgs/CfgModules.hpp"

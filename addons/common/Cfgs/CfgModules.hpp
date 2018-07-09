@@ -10,13 +10,80 @@ class CfgVehicles
 		class ModuleDescription;
 	};
 
-	class spag_ModuleTest: Module_F
+
+	//zeus example
+	/* class ModuleKalLol_f: Module_F
+	{
+		author = "Bohemia Interactive";
+		_generalMacro = "ModuleLightning_F";
+		scope = 2;
+		scopeCurator = 2;
+		category = "Curator";
+		displayName = "Kal Lightning Bolt";
+		icon = QPATHTOF(gui\Spag_Flag_ca.paa);
+		portrait = QPATHTOF(gui\Spag_Flag_ca.paa);
+		function = "BIS_fnc_moduleLightning";
+		isGlobal = 1;
+		isTriggerActivated = 1;
+		curatorCanAttach = 1;
+		curatorCost = 10;
+		class ModuleDescription: ModuleDescription
+		{
+			description = "Creates a lightning strike powerful enough to destroy an object where it impacts.";
+			position = 1;
+		};
+	}; */
+
+	/* class ace_zeus_moduleBase: Module_F
+			{
+				author = "ACE-Team";
+				category = "ACE";
+				function = "ace_common_fnc_dummy";
+				functionPriority = 1;
+				isGlobal = 1;
+				isTriggerActivated = 0;
+				scope = 1;
+				scopeCurator = 2;
+			};
+			class ace_zeus_moduleAddSpareTrack: ace_zeus_moduleBase
+			{
+				curatorCanAttach = 1;
+				category = "ace_zeus_Repair";
+				displayName = "Add Spare Track";
+				function = "ace_zeus_fnc_moduleAddSpareTrack";
+				icon = "a3\ui_f\data\IGUI\Cfg\Actions\repair_ca.paa";
+			}; */
+
+
+	class Spag_ModuleEnding_F: Module_F
+	{
+		author = "Kalthramis";
+		scope = 2;
+		scopeCurator = 2;
+		category = "MissionFlow";
+		displayName = "End Mission (Spagistan)";
+		icon = QPATHTOF(gui\Spag_Flag_ca.paa);
+		portrait = QPATHTOF(gui\Spag_Flag_ca.paa);
+		function = QFUNC(moduleEndMission);
+		isGlobal = 1;
+		isTriggerActivated = 0;
+		curatorCanAttach = 1;
+		curatorCost = 0;
+		class Arguments {};
+		class ModuleDescription: ModuleDescription
+		{
+			description = "Ends the mission with extra details - disables simulation for all players.";
+			sync[] = {};
+		};
+	};
+	//Wiki example
+	/* class spag_ModuleTest: Module_F
 		{
 			// Standard object definitions
 			scope = 2; // Editor visibility; 2 will show it in the menu, 1 will hide it.
 			scopeCurator = 2;
 			displayName = "End mission test"; // Name displayed in the menu
-			/* icon = "\myTag_addonName\data\iconNuke_ca.paa"; // Map icon. Delete this entry to use the default icon */
+			icon = "\myTag_addonName\data\iconNuke_ca.paa"; // Map icon. Delete this entry to use the default icon
 			category = "Events";
 
 			// Name of function triggered once conditions are met
@@ -95,5 +162,5 @@ class CfgVehicles
 					side = 1; // Custom side (will determine icon color)
 				};
 			};
-		};
+		}; */
 };

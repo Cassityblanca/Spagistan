@@ -3,7 +3,7 @@
 #define weap_xx(a,b) class _xx_##a {weapon = a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
-/* #define VEHICLEINVENTORY class TransportBackpacks\
+#define VEHICLEINVENTORY class TransportBackpacks\
 	{\
 	};\
 	class TransportWeapons\
@@ -30,9 +30,9 @@
 		item_xx(ACE_quikclot, 20);\
 		item_xx(ACE_EarPlugs, 4);\
 		item_xx(ACE_EntrenchingTool, 2);\
-	}; */
+	};
 
-#define VEHICLEINVENTORY class TransportBackpacks\
+/* #define VEHICLEINVENTORY class TransportBackpacks\
 	{\
 	};\
 	class TransportWeapons\
@@ -43,7 +43,7 @@
 	};\
 	class TransportItems\
 	{\
-	}; 
+	};  */
 
 //MI-8MT
 class CfgVehicles
