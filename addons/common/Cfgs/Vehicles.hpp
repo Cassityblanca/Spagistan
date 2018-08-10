@@ -1,4 +1,4 @@
-class CfgFunctions
+/* class CfgFunctions
 {
 	class spag
 	{
@@ -8,4 +8,4 @@ class CfgFunctions
 			class fn_moduleEndMission;
 		};
 	};
-};
+}; */

@@ -74,6 +74,7 @@ pbo_name_prefix = "spag_"
 signature_blacklist = []
 importantFiles = ["mod.cpp", "AUTHORS.txt", "spagistan_logo_ca.paa", "meta.cpp"]
 versionFiles = ["mod.cpp"]
+syncFolders = True
 
 ciBuild = False # Used for CI builds
 
@@ -785,7 +786,7 @@ def version_stamp_pboprefix(module,commitID):
 
 def main(argv):
     """Build an Arma addon suite in a directory from rules in a make.cfg file."""
-    print_blue("\nmake.py for Arma, modified for Advanced Combat Environment v{}".format(__version__))
+    print_blue("\nmake.py for Arma, added onto by the ACE team and modified further by Kalthramis v{}".format(__version__))
 
     global project_version
     global arma3tools_path
@@ -1490,6 +1491,14 @@ See the make.cfg file for additional build options.
             print_yellow("- {} untraced error(s)!".format(printedOnlyErrors))
     else:
         print_green("\nCompleted with 0 errors.")
+    if syncFolders:
+        filepath="C:/Users/Kal/Documents/GitHub/Spagistan/tools/spagFolderMIR.bat"
+        p = subprocess.Popen(filepath, shell=True, stdout = subprocess.PIPE)
+        stdout, stderr = p.communicate()
+        if p.returncode == 1:
+            print ("PBOs copied over to server folder successfully") #from: https://stackoverflow.com/questions/5469301/run-a-bat-file-using-python-code
+        else:
+            print ("PBOS failed to copy over to server folder. Error code: ", p.returncode)
 
 
 if __name__ == "__main__":

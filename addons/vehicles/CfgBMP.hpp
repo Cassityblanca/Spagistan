@@ -16,7 +16,7 @@ hiddenSelectionsTextures[] = {
 	}; */
 class BMP_Spagpat: rhsgref_cdf_bmp1
 {
-	displayName = "SPAG bmp";
+	displayName = "BMP-1 (Spagistan)";
 	scope = 2;
 	scopeCurator = 2;
 	side = 2;

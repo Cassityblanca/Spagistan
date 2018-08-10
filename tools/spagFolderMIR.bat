@@ -1,0 +1,1 @@
+ROBOCOPY "C:\Users\Kal\Documents\GitHub\SpagistanDevelopment\@spag" "F:\Arma Development\_Private Server\SteamCmd\steamapps\common\Arma 3 Server\@SpagistanServer" /MIR

@@ -5,7 +5,7 @@ class CfgFactionClasses
 		displayName = "Spagistan";
 		priority = 5;
 		side = 2;
-		icon = QPATHTOF(gui\Spag_Flag_Square_ca.paa);
+		icon = QPATHTOF(gui\Spag_Flag_Square_ca);
 		flag = QPATHTOF(gui\Spag_Flag_ca.paa);
 	 };
 };

@@ -16,5 +16,7 @@
 
 
 // Spagistan Specific
-#define SPAGCAMNAME Spagcam
+/* #define SPAGCAMNAME Spagcam
 #define SPAGFACTION Spag_F
+#define SPAGMAP Malden //Remember to define these in the /common/initVars/ as well.
+#define SPAGYEAR 2018 */

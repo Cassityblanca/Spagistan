@@ -9,4 +9,5 @@
  */
 {
 	_x enableSimulationGlobal false;
+	_x allowDamage false;
 } forEach allPlayers;
